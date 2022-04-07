@@ -1,0 +1,20 @@
+tpi <<"Hello world " ;
+doub x = 3 ;
+doub y = 3 + 3 * 3 ;
+tpi << y ;
+
+y = 10 ;
+
+ete (y > 2) {
+    tpi << "y > 2" ;
+}
+
+tpi << "" ;
+doub u = 0 ;
+doub j = 5 ;
+
+fra ( u < j )
+{
+    j = j - 1 ;
+    tpi << j ;
+}
